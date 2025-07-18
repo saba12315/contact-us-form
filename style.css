@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button[type="submit"] {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.85rem;
+    position: absolute;
+    bottom: -18px;
+    left: 5px;
+  }
+  
+  .map {
+    margin-top: 30px;
+  }
+  
+  /* Scroll to top button */
+  #topBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 50%;
+  }
+  
+  #topBtn:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    input, textarea {
+      font-size: 1rem;
+    }
+  }
+  
